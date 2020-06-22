@@ -26,5 +26,5 @@ plot(date, consumption$Sub_metering_1, type="l", ylab="Energy Submetering", xlab
 lines(date, consumption$Sub_metering_2, type="l", col="red")
 lines(date, consumption$Sub_metering_3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd=2, col=c("black", "red", "blue", bty="o"))
-plot(datetime, consumption$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
+plot(date, consumption$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
 dev.off()
